@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+#form {
+    display: block;
+}
+h1{
+    margin: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0EAD6; /* Pastel yellow */
+}
+
+#form {
+    margin: 40px;
+    background-color: #E6D8CF; /* Pastel peach */
+    border-radius: 30px;
+}
+
+input {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding-left: 20px;
+    font-size: 13px;
+    height: 40px;
+    width: 200px;
+    color: #555; /* Dark gray */
+    flex: 1;
+
+}
+
+button {
+    outline: 0;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 40px;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000; /* Pastel purple */
+    background-color: #9FB1BC; /* Pastel blue */
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: hsl(203, 18%, 78%); 
+}
+
+p{
+    margin: 4px;
+}
+.card{
+    margin-top: 25px;
+    scale: 1.2;
+    background-color: white ;
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.372);
+}
+
+img{
+    height: 80px;
+    margin: 5px;
+}
